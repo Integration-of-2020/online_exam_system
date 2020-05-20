@@ -10,12 +10,6 @@
             <form id="role-form">
                 <div class="select-list">
                     <ul>
-                        <li>
-                            用户名称：<input type="text" name="username"/>
-                        </li>
-                        <li>
-                            用户账号：<input type="text" name="loginName"/>
-                        </li>
                         <li class="select-time">
                             <label>创建时间： </label>
                             <input type="text" class="time-input" id="startTime" placeholder="开始时间"
