@@ -12,9 +12,6 @@ import java.util.Map;
 
 /**
  * 问题表(Question)表服务实现类
- *
- * @author makejava
- * @since 2019-05-01 11:39:04
  */
 @Service("questionService")
 public class QuestionServiceImpl implements QuestionService {

@@ -7,9 +7,6 @@ import java.util.Map;
 
 /**
  * 问题表(Question)表服务接口
- *
- * @author makejava
- * @since 2019-05-01 11:39:04
  */
 public interface QuestionService {
 

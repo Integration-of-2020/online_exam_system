@@ -16,9 +16,6 @@ import java.util.List;
 
 /**
  * 公告管理(Notice)表控制层
- *
- * @author makejava
- * @since 2019-05-01 11:41:47
  */
 @Controller
 @RequestMapping("system/notice")

@@ -16,8 +16,6 @@ import java.util.List;
 /**
  * 系统日志(SysLog)表控制层
  *
- * @author makejava
- * @since 2019-05-01 00:15:14
  */
 @Controller
 @RequestMapping("system/log")

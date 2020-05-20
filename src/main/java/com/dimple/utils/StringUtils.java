@@ -6,9 +6,6 @@ import java.util.Map;
 /**
  * @className: StringUtils
  * @description: 字符串工具类
- * @auther: Dimple
- * @Date: 2019/3/13
- * @Version: 1.1
  */
 public class StringUtils extends org.apache.commons.lang3.StringUtils {
     /**

@@ -6,9 +6,6 @@ import java.io.Serializable;
 
 /**
  * 考试记录(ExamRecord)实体类
- *
- * @author makejava
- * @since 2019-05-04 01:11:58
  */
 @Data
 public class ExamRecord implements Serializable {

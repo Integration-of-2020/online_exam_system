@@ -6,9 +6,6 @@ import java.io.Serializable;
 
 /**
  * 试卷和学生的关联表(ExamStudent)实体类
- *
- * @author makejava
- * @since 2019-05-01 11:39:01
  */
 @Data
 public class ExamStudent implements Serializable {

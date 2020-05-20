@@ -3,9 +3,6 @@ package com.dimple.utils.web;
 /**
  * @className: Constants
  * @description: 通用常量信息
- * @auther: Dimple
- * @Date: 2019/3/13
- * @Version: 1.1
  */
 public class Constants {
     /**

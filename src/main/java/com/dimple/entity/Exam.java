@@ -10,9 +10,6 @@ import java.io.Serializable;
 
 /**
  * 试卷表(Exam)实体类
- *
- * @author makejava
- * @since 2019-05-01 11:38:58
  */
 @Data
 public class Exam extends BaseEntity {

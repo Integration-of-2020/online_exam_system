@@ -17,8 +17,6 @@ import java.util.List;
 /**
  * (SysUser)表控制层
  *
- * @author makejava
- * @since 2019-05-01 00:15:15
  */
 @Controller
 @RequestMapping("system/user")

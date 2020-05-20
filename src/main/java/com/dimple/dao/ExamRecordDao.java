@@ -7,9 +7,6 @@ import java.util.List;
 
 /**
  * 考试记录(ExamRecord)表数据库访问层
- *
- * @author makejava
- * @since 2019-05-04 01:11:58
  */
 public interface ExamRecordDao {
 

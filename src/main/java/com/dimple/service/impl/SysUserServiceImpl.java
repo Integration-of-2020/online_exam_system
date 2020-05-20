@@ -19,9 +19,6 @@ import java.util.UUID;
 
 /**
  * (SysUser)表服务实现类
- *
- * @author makejava
- * @since 2019-05-01 00:15:15
  */
 @Service
 public class SysUserServiceImpl implements SysUserService {

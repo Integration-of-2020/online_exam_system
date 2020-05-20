@@ -10,9 +10,6 @@ import java.util.Set;
 
 /**
  * (SysUser)实体类
- *
- * @author makejava
- * @since 2019-05-01 00:15:15
  */
 @Data
 public class SysUser extends BaseEntity {

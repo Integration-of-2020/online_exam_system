@@ -18,9 +18,6 @@ import java.util.Map;
 
 /**
  * 问题表(Question)表控制层
- *
- * @author makejava
- * @since 2019-05-01 11:39:04
  */
 @Controller
 @RequestMapping("onlineExam/question")

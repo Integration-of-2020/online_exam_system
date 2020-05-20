@@ -13,9 +13,6 @@ import java.util.List;
 
 /**
  * 考试记录(ExamRecord)表服务实现类
- *
- * @author makejava
- * @since 2019-05-04 01:11:58
  */
 @Service
 public class ExamRecordServiceImpl implements ExamRecordService {

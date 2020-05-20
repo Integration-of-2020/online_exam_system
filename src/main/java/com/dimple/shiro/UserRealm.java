@@ -29,9 +29,6 @@ import java.io.Serializable;
 /**
  * @className: UserRealm
  * @description:
- * @auther: Dimple
- * @date: 04/29/19
- * @version: 1.0
  */
 @Slf4j
 public class UserRealm extends AuthorizingRealm {

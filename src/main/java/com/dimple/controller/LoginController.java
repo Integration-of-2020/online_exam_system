@@ -43,9 +43,6 @@ import java.util.Map;
 /**
  * @className: LoginController
  * @description: 登录相关
- * @auther: Dimple
- * @date: 04/29/19
- * @version: 1.0
  */
 @Controller
 @Slf4j

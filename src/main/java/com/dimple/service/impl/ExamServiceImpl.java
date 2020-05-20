@@ -26,9 +26,6 @@ import java.util.Map;
 
 /**
  * 试卷表(Exam)表服务实现类
- *
- * @author makejava
- * @since 2019-05-01 11:39:00
  */
 @Service
 public class ExamServiceImpl implements ExamService {

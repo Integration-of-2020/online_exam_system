@@ -8,9 +8,6 @@ import java.io.Serializable;
 
 /**
  * 系统日志(SysLog)实体类
- *
- * @author makejava
- * @since 2019-05-01 00:15:14
  */
 @Data
 public class SysLog extends BaseEntity {

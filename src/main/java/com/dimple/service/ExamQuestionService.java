@@ -6,9 +6,6 @@ import java.util.List;
 
 /**
  * 试卷和问题的关联表(ExamQuestion)表服务接口
- *
- * @author makejava
- * @since 2019-05-01 11:39:01
  */
 public interface ExamQuestionService {
 

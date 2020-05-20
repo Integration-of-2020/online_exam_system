@@ -7,9 +7,6 @@ import java.util.List;
 
 /**
  * 试卷和学生的关联表(ExamStudent)表服务接口
- *
- * @author makejava
- * @since 2019-05-01 11:39:02
  */
 public interface ExamStudentService {
 
