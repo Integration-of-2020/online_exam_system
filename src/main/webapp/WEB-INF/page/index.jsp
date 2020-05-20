@@ -53,11 +53,6 @@
                                 </a>
                             </dd>
                         </shiro:hasRole>
-                        <%--                        <dd data-menu="seraphApi">--%>
-                        <%--                            <a href="javascript:;"><i class="layui-icon" data-icon="&#xe705;">&#xe705;</i>--%>
-                        <%--                                <cite>使用文档</cite>--%>
-                        <%--                            </a>--%>
-                        <%--                        </dd>--%>
                     </dl>
                 </li>
             </ul>
@@ -86,28 +81,9 @@
                         </a>
                     </li>
                 </shiro:hasRole>
-                <%--                <li class="layui-nav-item" data-menu="seraphApi" pc>--%>
-                <%--                    <a href="javascript:;">--%>
-                <%--                        <i class="layui-icon" data-icon="&#xe705;">&#xe705;</i>--%>
-                <%--                        <cite>使用文档</cite>--%>
-                <%--                    </a>--%>
-                <%--                </li>--%>
             </ul>
             <!-- 顶部右侧菜单 -->
             <ul class="layui-nav top_menu">
-                <%-- <li class="layui-nav-item" pc>
-                    <a href="javascript:;" class="clearCache">
-                        <i class="layui-icon" data-icon="&#xe640;">&#xe640;</i>
-                        <cite>清除缓存</cite>
-                        <span class="layui-badge-dot"></span>
-                    </a>
-                </li>
-               <li class="layui-nav-item lockcms" pc>
-                    <a href="javascript:;">
-                        <i class="seraph icon-lock"></i>
-                        <cite>锁屏</cite>
-                    </a>
-                </li>--%>
                 <li class="layui-nav-item" id="userInfo">
                     <a href="javascript:;">
                         <img src="/static/images/face.jpg" class="layui-nav-img userAvatar" width="35" height="35">

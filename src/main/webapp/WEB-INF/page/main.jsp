@@ -53,39 +53,6 @@
 </blockquote>
 <div class="layui-row layui-col-space12">
     <div class="layui-col-lg12layui-col-md12">
-        <%--<blockquote class="layui-elem-quote title">系统基本参数</blockquote>
-        <table class="layui-table magt0">
-            <colgroup>
-                <col width="150">
-                <col>
-            </colgroup>
-            <tbody>
-            <tr>
-                <td>当前版本</td>
-                <td class="version">V1.0</td>
-            </tr>
-            <tr>
-                <td>开发作者</td>
-                <td class="author">XXX</td>
-            </tr>
-            <tr>
-                <td>网站首页</td>
-                <td class="homePage">/index</td>
-            </tr>
-            <tr>
-                <td>服务器环境</td>
-                <td class="server">Windows 10</td>
-            </tr>
-            <tr>
-                <td>数据库版本</td>
-                <td class="dataBase">MySQL5.7</td>
-            </tr>
-            <tr>
-                <td>最大上传限制</td>
-                <td class="maxUpload">2M</td>
-            </tr>
-            </tbody>
-        </table>--%>
     </div>
 </div>
 <script type="text/javascript" src="/static/layui/layui.js"></script>
