@@ -10,14 +10,13 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-<%--    <link rel="icon" href="https://static.mysiteforme.com/866ac55f-b471-40cf-a794-db73128c8fcd.ico">--%>
     <link rel="stylesheet" href="/static/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="/static/css/login.css" media="all"/>
 </head>
 <body>
 <div id="bg-body"></div>
 <div class="login">
-    <h1>在线考试系统登录</h1>
+    <h1><img src="/static/img/logo.png" style="width: 24px;margin-right: 7px;">在线考试系统登录</h1>
     <form class="layui-form" action="/login" method="post">
         <div class="layui-form-item">
             <input class="layui-input" name="username"  placeholder="请输入用户名" lay-verify="required"

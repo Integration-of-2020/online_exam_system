@@ -10,26 +10,14 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="https://static.mysiteforme.com/866ac55f-b471-40cf-a794-db73128c8fcd.ico">
     <link rel="stylesheet" href="/static/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="/static/css/login.css" media="all"/>
 </head>
 <body>
 <div id="bg-body"></div>
 <div class="register">
-    <h1>在线考试系统学生注册</h1>
+    <h1><img src="/static/img/logo.png" style="width: 24px;margin-right: 7px;"> 在线考试系统学生注册</h1>
     <form class="layui-form" action="/register" method="post">
-        <%--<div class="layui-form-item">--%>
-            <%--<label class="radio-box">--%>
-                <%--<input name="userType" type="radio" value="1">管理员--%>
-            <%--</label>--%>
-            <%--<label class="radio-box">--%>
-                <%--<input name="userType" type="radio" value="2">教师--%>
-            <%--</label>--%>
-            <%--<label class="radio-box">--%>
-                <%--<input name="userType" type="radio" value="3" checked>学生--%>
-            <%--</label>--%>
-        <%--</div>--%>
         <div class="layui-form-item">
             <input class="layui-input" name="nickName"  placeholder="请输入用户名" lay-verify="required"
                    type="text"
@@ -60,9 +48,9 @@
         </div>
 
         <div class="layui-form-item">
-            <input type="button" class="layui-btn fa-registered" value="去登录"  onclick="toLogin()"></input>
+            <input type="button" class="layui-btn fa-registered" value="去登录"  onclick="toLogin()" style="padding: 0 28px;"/>
             <button class="layui-btn fa-registered" lay-submit="" lay-filter="register"
-                    style="margin-left: 90px; width: 74px">注册</button>
+                    style="margin-left: 99px; width: 98px">注册</button>
         </div>
     </form>
 </div>

@@ -325,7 +325,6 @@
         })
     }
 
-
     function returnFun() {
         layer.confirm("关闭后你可以继续登录系统答题，已经填写的答案不会丢失，请确定是否退出？",function () {
           window.opener=null;window.close();

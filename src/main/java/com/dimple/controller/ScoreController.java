@@ -1,6 +1,5 @@
 package com.dimple.controller;
 
-import com.dimple.entity.ExamStudent;
 import com.dimple.entity.Score;
 import com.dimple.service.ExamStudentService;
 import com.dimple.utils.web.BaseController;

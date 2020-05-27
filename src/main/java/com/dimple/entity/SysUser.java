@@ -3,11 +3,6 @@ package com.dimple.entity;
 import com.dimple.utils.BaseEntity;
 import lombok.Data;
 
-import java.util.Date;
-import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * (SysUser)实体类
  */
@@ -38,7 +33,4 @@ public class SysUser extends BaseEntity {
     //在考试管理的时候确定学生是否选中
     private Boolean studentCheckFlag = false;
 
-    public void setUserType(String userType) {
-        this.userType = userType;
-    }
 }

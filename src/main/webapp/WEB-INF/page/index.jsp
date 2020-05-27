@@ -77,7 +77,7 @@
                     <li class="layui-nav-item" data-menu="systemeSttings" pc>
                         <a href="javascript:;">
                             <i class="layui-icon" data-icon="&#xe620;">&#xe620;</i>
-                            <cite>系统设置</cite>
+                            <cite>用户设置</cite>
                         </a>
                     </li>
                 </shiro:hasRole>

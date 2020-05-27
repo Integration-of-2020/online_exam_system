@@ -3,7 +3,7 @@
 <html>
 <%@include file="../common/include-header.jsp" %>
 <body>
-<form class="layui-form">
+<form class="layui-form" id="form-user-update">
     <div class="user_left">
         <input class="layui-hide" name="id" value="${user.id}"/>
         <div class="layui-form-item">
@@ -66,13 +66,11 @@
 <%@include file="../common/include-footer.jsp" %>
 <script>
     var prefix = "/system/user";
-
     function submitHandler() {
         var data = $("#form-user-update").serializeArray();
         var status = $("input[id='status']").is(':checked') == true ? 0 : 1;
         $.operate.savePut(prefix + "/update", data);
     }
-
 </script>
 </body>
 </html>
