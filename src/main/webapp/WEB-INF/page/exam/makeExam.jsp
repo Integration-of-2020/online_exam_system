@@ -4,11 +4,11 @@
 <%@include file="../common/include-header.jsp" %>
 <style>
     .exam-bar {
-        background: #fff9ec none repeat scroll 0% 0%;
-        height: 40px;
+        background: #009688 none repeat scroll 0% 0%;
+        /*height: 40px;*/
         font-size: 16px;
-        margin-bottom: 0;
-        padding-top: 10px;
+        padding: 10px;
+        color: white;
     }
 </style>
 <body class="gray-bg">
@@ -24,19 +24,15 @@
             </div>
             <div class="col-lg-4 text-left">
                 <button type="button" class="btn btn-info" onclick="doPaper(false)">交卷</button>
-                <button type="button" class="btn btn-info" onclick="returnFun()">返回</button>
-                &nbsp;&nbsp;
+                <button type="button" class="btn btn-info" onclick="returnFun()">返回</button> &nbsp;&nbsp;
             </div>
         </nav>
-        <video class="text-right" id="video" width="480" height="320" style="    width: 200px;
-    height: 200px;
-    position: fixed;
-    right: 30px;
+        <video class="text-right" id="video" width="480" height="320" style="    width: 200px; height: 200px; position: fixed; right: 30px;
     margin-top: 30px;">
         </video>
 
         <div class="text-center" style="margin-top: 100px">
-            <h1 class="h1 text-center text-warning ">${exam.examName} </h1>
+            <h1 class="h1 text-center text-warning "  style="color: rgb(49 77 88)">${exam.examName} </h1>
             <span class="text-right">试卷满分：${exam.score}</span>
         </div>
 
@@ -46,8 +42,7 @@
                 <h1 class="form-header">单选题</h1>
                 <c:forEach items="${exam.radioQuestion}" varStatus="varStat" var="radio">
                     <div class="form-group">
-                        <label class=" control-label">${varStat.index+1}: ${radio.title}</label><span
-                            class="text-info h6">本题${radio.score}分</span>
+                        <label class=" control-label">${varStat.index+1}: ${radio.title}</label><span class="text-info h6">本题${radio.score}分</span>
                         <div class="col-sm-12">
                             <label class="radio-box">
                                 <input class="form-control" type="radio" name="${radio.id}" mtype="single" value="A"
@@ -94,8 +89,7 @@
                 <h1 class="form-header">多选题</h1>
                 <c:forEach items="${exam.checkboxQuestion}" varStatus="varStat" var="checkbox">
                     <div class="form-group">
-                        <label class=" control-label">${varStat.index+1}: ${checkbox.title}</label><span
-                            class="text-info h6">  本题${checkbox.score}分</span>
+                        <label class=" control-label">${varStat.index+1}: ${checkbox.title}</label><span class="text-info h6">  本题${checkbox.score}分</span>
                         <div class="col-sm-12">
                             <label class="check-box">
                                 <input class="form-control" type="checkbox" mtype="Multiple" value="A" required
@@ -161,8 +155,7 @@
                 <h1 class="form-header">判断题</h1>
                 <c:forEach items="${exam.judgeQuestion}" varStatus="varStat" var="judge">
                     <div class="form-group">
-                        <label class=" control-label">${varStat.index+1}: ${judge.title}</label><span
-                            class="text-info h6">  本题${judge.score}分</span>
+                        <label class=" control-label">${varStat.index+1}: ${judge.title}</label><span class="text-info h6">  本题${judge.score}分</span>
                         <br>
                         <label class="radio-box">
                             <input class="form-control" type="radio" mtype="judge" value="1" name="${judge.id}" required
@@ -185,12 +178,8 @@
                 <h1 class="form-header">简答</h1>
                 <c:forEach items="${exam.shortQuestion}" varStatus="varStat" var="shorta">
                     <div class="form-group">
-                        <label class=" control-label">${varStat.index+1}: ${shorta.title}</label><span
-                            class="text-info h6">  本题${shorta.score}分</span>
-                        <textarea name="${shorta.id}" autocomplete="off" maxlength="500" id="shortAnswer" required
-                                  class="form-control"
-                                  onblur="updateTextAnswer('${shorta.id }')"
-                                  rows="3">${shorta.textAnswerStu}</textarea>
+                        <label class=" control-label">${varStat.index+1}: ${shorta.title}</label><span class="text-info h6">  本题${shorta.score}分</span>
+                        <textarea name="${shorta.id}" autocomplete="off" maxlength="500" id="shortAnswer" required class="form-control" onblur="updateTextAnswer('${shorta.id }')" rows="3">${shorta.textAnswerStu}</textarea>
                         <br>
                     </div>
                 </c:forEach>
@@ -233,16 +222,16 @@
         video.play();
     }
 
-    function error(error) {
-        console.log(`访问用户媒体设备失败${error.name}, ${error.message}`);
-    }
+    <%--function error(error) {--%>
+    <%--    console.log(`访问用户媒体设备失败${error.name}, ${error.message}`);--%>
+    <%--}--%>
 
-  /*  if (navigator.mediaDevices.getUserMedia || navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia) {
-        //调用用户媒体设备, 访问摄像头
-        getUserMedia({video: {width: 480, height: 320}}, success, error);
-    } else {
-        alert('不支持访问用户媒体');
-    }*/
+    /*  if (navigator.mediaDevices.getUserMedia || navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia) {
+          //调用用户媒体设备, 访问摄像头
+          getUserMedia({video: {width: 480, height: 320}}, success, error);
+      } else {
+          alert('不支持访问用户媒体');
+      }*/
 
 
     $(function () {
@@ -256,25 +245,23 @@
         $('input[name="' + $(this).attr("name") + '"]:checked').each(function () {
             multipleValue += $(this).val() + ",";//A,B,C,
         });
-        if (multipleValue.length > 0) {
+        if(multipleValue.length > 0) {
             multipleValue = multipleValue.substring(0, multipleValue.length - 1);
         }
         sendData($(this).attr("name"), multipleValue);
     });
 
-
-    $("input[mtype='single']").on('ifChecked', function (event) {
+    $("input[mtype='single']").on('ifChecked', function(event) {
         var singleValue = "";
-        $('input[name="' + $(this).attr("name") + '"]:checked').each(function () {
+        $('input[name="' + $(this).attr("name") + '"]:checked').each(function() {
             singleValue = $(this).val();
         });
         sendData($(this).attr("name"), singleValue)
     });
 
-
-    $("input[mtype='judge']").on('ifChecked', function (event) {
+    $("input[mtype='judge']").on('ifChecked', function(event) {
         var judgeValue = "";
-        $('input[name="' + $(this).attr("name") + '"]:checked').each(function () {
+        $('input[name="' + $(this).attr("name") + '"]:checked').each(function() {
             judgeValue = $(this).val();
         });
         sendData($(this).attr("name"), judgeValue)
@@ -282,12 +269,16 @@
 
     function sendData(questionId, answer) {
         $.ajax({
-            data: {"questionId": questionId, "answer": answer, "examId": $("#examId").val()},
+            data: {
+                "questionId": questionId,
+                "answer": answer,
+                "examId": $("#examId").val()
+            },
             url: "/exam/student/record",
             async: true, //异步提交
             type: "post",
-            success: function (result) {
-                if (result.code != 0) {
+            success: function(result) {
+                if(result.code != 0) {
                     $.modal.error(result.msg);
                 }
             }
@@ -304,18 +295,20 @@
      */
     function doPaper() {
         var validate = $.validate.form();
-        if (!validate) {
+        if(!validate) {
             $.modal.alertError("你还有没有填写的答案不能交卷！");
             return;
         }
         $.modal.loading("正在交卷中，请稍后...");
         $.ajax({
             url: "/exam/student/finish",
-            data: {examId: $("#examId").val()},
+            data: {
+                examId: $("#examId").val()
+            },
             async: true,
             type: "post",
-            success: function (result) {
-                if (result.code == 0) {
+            success: function(result) {
+                if(result.code == 0) {
                     $.modal.alertSuccess("交卷成功");
                     location.href = "/index";
                 } else {
@@ -326,8 +319,9 @@
     }
 
     function returnFun() {
-        layer.confirm("关闭后你可以继续登录系统答题，已经填写的答案不会丢失，请确定是否退出？",function () {
-          window.opener=null;window.close();
+        layer.confirm("关闭后你可以继续登录系统答题，已经填写的答案不会丢失，请确定是否退出？", function() {
+            window.opener = null;
+            window.close();
         })
     }
 </script>

@@ -4,11 +4,13 @@
 <%@include file="../common/include-header.jsp" %>
 <style>
     .exam-bar {
-        background: #fff9ec none repeat scroll 0% 0%;
-        height: 40px;
+        background: #009688 none repeat scroll 0% 0%;
+        /*height: 40px;*/
         font-size: 16px;
-        margin-bottom: 0;
-        padding-top: 10px;
+        /*margin-bottom: 0;*/
+        /*padding-top: 10px;*/
+        padding: 10px;
+        color: white;
     }
 </style>
 <body class="gray-bg">
@@ -30,7 +32,7 @@
     </nav>
 
     <div class="text-center" style="margin-top: 100px">
-        <h1 class="h1 text-center text-warning ">${exam.examName} </h1>
+        <h1 class="h1 text-center text-warning " style="color: rgb(49 77 88)">${exam.examName} </h1>
         <span class="text-right">试卷满分：${exam.score}</span>
     </div>
 
@@ -40,8 +42,7 @@
             <h1 class="form-header">单选题</h1>
             <c:forEach items="${exam.radioQuestion}" varStatus="varStat" var="radio">
                 <div class="form-group">
-                    <label class=" control-label">${varStat.index+1}: ${radio.title}</label><span
-                        class="text-info h6">本题${radio.score}分</span>
+                    <label class=" control-label">${varStat.index+1}: ${radio.title}</label><span class="text-info h6">本题${radio.score}分</span>
                     <div class="col-sm-12">
                         <label class="radio-box">
                             <input class="form-control" type="radio" name="${radio.id}" mtype="single" value="A"
@@ -78,13 +79,13 @@
                         <br>
                     </div>
                     <c:if test="${radio.finalScore !=null}">
-                        <div class="text-warning">最终得分：${radio.finalScore}</div>
+                        <div class="text-warning" style="color: rgb(49 77 88)">最终得分：${radio.finalScore}</div>
                     </c:if>
                     <c:if test="${radio.answer !=null && radio.answer!=''}">
-                        <div class="text-warning">正确答案：${radio.answer}</div>
+                        <div class="text-warning" style="color: rgb(49 77 88)">正确答案：${radio.answer}</div>
                     </c:if>
                     <c:if test="${radio.analyse != null && radio.analyse!=''}">
-                        <div class="text-danger">解析：${radio.analyse}</div>
+                        <div class="text-danger" style="color: rgb(49 77 88)">解析：${radio.analyse}</div>
                     </c:if>
                 </div>
                 <br>
@@ -97,8 +98,7 @@
             <h1 class="form-header">多选题</h1>
             <c:forEach items="${exam.checkboxQuestion}" varStatus="varStat" var="checkbox">
                 <div class="form-group">
-                    <label class=" control-label">${varStat.index+1}: ${checkbox.title}</label><span
-                        class="text-info h6">  本题${checkbox.score}分</span>
+                    <label class=" control-label">${varStat.index+1}: ${checkbox.title}</label><span class="text-info h6">  本题${checkbox.score}分</span>
                     <div class="col-sm-12">
                         <label class="check-box">
                             <input class="form-control" type="checkbox" mtype="Multiple" value="A" disabled
@@ -139,13 +139,13 @@
                     </div>
                 </div>
                 <c:if test="${checkbox.finalScore !=null }">
-                    <div class="text-warning">最终得分：${checkbox.finalScore}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">最终得分：${checkbox.finalScore}</div>
                 </c:if>
                 <c:if test="${checkbox.answer !=null && checkbox.answer!=''}">
-                    <div class="text-warning">正确答案：${checkbox.answer}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">正确答案：${checkbox.answer}</div>
                 </c:if>
                 <c:if test="${checkbox.analyse != null && checkbox.analyse!=''}">
-                    <div class="text-danger">解析：${checkbox.analyse}</div>
+                    <div class="text-danger" style="color: rgb(49 77 88)">解析：${checkbox.analyse}</div>
                 </c:if>
                 <br>
             </c:forEach>
@@ -164,16 +164,16 @@
                     <span class="text-info h6">  本题${black.score}分</span>
                 </div>
                 <c:if test="${exam.totalScore !=null}">
-                    <div class=" text-warning">最终得分：${black.finalScore}</div>
+                    <div class=" text-warning" style="color: rgb(49 77 88)">最终得分：${black.finalScore}</div>
                 </c:if>
                 <c:if test="${exam.totalScore ==null}">
-                    <div class="text-warning">最终得分：正在阅卷中</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">最终得分：正在阅卷中</div>
                 </c:if>
                 <c:if test="${black.answer !=null && black.answer!=''}">
-                    <div class="text-warning">正确答案：${black.answer}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">正确答案：${black.answer}</div>
                 </c:if>
                 <c:if test="${black.analyse != null && black.analyse!=''}">
-                    <div class="text-danger">解析：${black.analyse}</div>
+                    <div class="text-danger" style="color: rgb(49 77 88)">解析：${black.analyse}</div>
                 </c:if>
             </c:forEach>
 
@@ -185,8 +185,7 @@
             <h1 class="form-header">判断题</h1>
             <c:forEach items="${exam.judgeQuestion}" varStatus="varStat" var="judge">
                 <div class="form-group">
-                    <label class=" control-label">${varStat.index+1}: ${judge.title}</label><span
-                        class="text-info h6">  本题${judge.score}分</span>
+                    <label class=" control-label">${varStat.index+1}: ${judge.title}</label><span class="text-info h6">  本题${judge.score}分</span>
                     <br>
                     <label class="radio-box">
                         <input class="form-control" type="radio" mtype="judge" value="1" name="${judge.id}" disabled
@@ -200,13 +199,13 @@
                     </label>
                 </div>
                 <c:if test="${exam.totalScore !=null}">
-                    <div class="text-warning">最终得分：${judge.finalScore}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">最终得分：${judge.finalScore}</div>
                 </c:if>
                 <c:if test="${exam.totalScore ==null}">
-                    <div class="text-warning">正确答案：${judge.answer=='0'?"错误":"正确"}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">正确答案：${judge.answer=='0'?"错误":"正确"}</div>
                 </c:if>
                 <c:if test="${judge.analyse != null && judge.analyse!=''}">
-                    <div class="text-danger">解析：${judge.analyse}</div>
+                    <div class="text-danger" style="color: rgb(49 77 88)">解析：${judge.analyse}</div>
                 </c:if>
                 <br>
             </c:forEach>
@@ -227,16 +226,16 @@
                     <br>
                 </div>
                 <c:if test="${exam.totalScore !=null}">
-                    <div class="text-warning">最终得分：${shorta.finalScore}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">最终得分：${shorta.finalScore}</div>
                 </c:if>
                 <c:if test="${exam.totalScore ==null}">
-                    <div class="text-warning">最终得分：正在阅卷中</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">最终得分：正在阅卷中</div>
                 </c:if>
                 <c:if test="${shorta.answer !=null && shorta.answer!=''}">
-                    <div class="text-warning">正确答案：${shorta.answer}</div>
+                    <div class="text-warning" style="color: rgb(49 77 88)">正确答案：${shorta.answer}</div>
                 </c:if>
                 <c:if test="${shorta.analyse != null && shorta.analyse!=''}">
-                    <div class="text-danger">解析：${shorta.analyse}</div>
+                    <div class="text-danger" style="color: rgb(49 77 88)">解析：${shorta.analyse}</div>
                 </c:if>
             </c:forEach>
         </div>
