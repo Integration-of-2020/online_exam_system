@@ -23,7 +23,8 @@
     <!-- 顶部 -->
     <div class="layui-header header">
         <div class="layui-main mag0">
-            <a href="#" class="logo">在线考试系统</a>
+            <a href="#" class="logo"><img src="/static/img/logo.png" style="width: 17px;
+margin-right: 5px;">系统管理界面</a>
             <!-- 显示/隐藏菜单 -->
             <a href="javascript:;" class="seraph hideMenu icon-caidan"></a>
             <!-- 顶级菜单 -->
@@ -201,8 +202,8 @@
 </div>
 
 <!-- 移动导航 -->
-<div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>
-<div class="site-mobile-shade"></div>
+<%--<div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>--%>
+<%--<div class="site-mobile-shade"></div>--%>
 
 <script src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/layui/layui.js"></script>

@@ -17,32 +17,37 @@
     <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body class="childrenBody">
-<blockquote class="layui-elem-quote layui-bg-green">
+<!--<blockquote class="layui-elem-quote layui-bg-green">
     <div id="nowTime"></div>
-</blockquote>
+</blockquote>-->
 <div class="layui-row layui-col-space10 panel_box">
     <input type="hidden" id="userName" value="${sessionScope.user.nickName}"/>
-    <blockquote class="layui-elem-quote title">快捷菜单</blockquote>
-    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">
-        <a href="javascript:;">
-            <div class="panel_icon layui-bg-blue">
-                <i class="layui-anim seraph icon-clock"></i>
+    <blockquote class="layui-elem-quote title">快捷搜索</blockquote>
+    <div class="layui-form component">
+        <select name="search" id="search" lay-search lay-filter="searchPage">
+        </select>
+        <div class="col-lg-6" style="margin: 10px auto;">
+            <div class="input-group">
+                <input type="text" class="form-control"  placeholder="请输入界面相关字、功能或详细信息">
+                <span class="input-group-btn">
+						<button class="btn btn-default" type="button" style="height: 34px;">
+							  <i class="layui-icon">&#xe615;</i>
+						</button>
+					</span>
             </div>
-            <div class="panel_word">
-                <span class="loginTime"></span>
-                <cite>上次登录时间</cite>
-            </div>
-        </a>
+        </div>
+
     </div>
 </div>
-<%--通知--%>
-<blockquote class="layui-elem-quote main_btn">
+<blockquote class="layui-elem-quote title">通知</blockquote>
+<div class="layui-form component">
+    <!--<div class="layui-elem-quote main_btn">-->
     <c:forEach items="${notices}" var="notice">
         <c:if test="${notice.type==2}">
             <div class="layui-timeline-title">
                 <h3 class="layui-inline">${notice.title}</h3>
-                <span class="layui-badge-rim"><fmt:formatDate pattern="yyyy-MM-dd"
-                                                              value="${notice.createDate}"/>    </span>
+                <span class="layui-badge-rim">
+                	<fmt:formatDate pattern="yyyy-MM-dd" value="${notice.createDate}"/>    </span>
             </div>
             <div class="layui-table-tips" style="margin-left: 10px">
                     ${notice.content}
@@ -50,7 +55,7 @@
             <hr>
         </c:if>
     </c:forEach>
-</blockquote>
+</div>
 <div class="layui-row layui-col-space12">
     <div class="layui-col-lg12layui-col-md12">
     </div>
@@ -60,4 +65,48 @@
 <script type="text/javascript" src="/static/js/main.js"></script>
 <script src="/static/js/bootstrap.min.js"></script>
 </body>
+<%--<body class="childrenBody">--%>
+<%--<blockquote class="layui-elem-quote layui-bg-green">--%>
+<%--    <div id="nowTime"></div>--%>
+<%--</blockquote>--%>
+<%--<div class="layui-row layui-col-space10 panel_box">--%>
+<%--    <input type="hidden" id="userName" value="${sessionScope.user.nickName}"/>--%>
+<%--    <blockquote class="layui-elem-quote title">快捷菜单</blockquote>--%>
+<%--    <div class="panel layui-col-xs12 layui-col-sm6 layui-col-md4 layui-col-lg2">--%>
+<%--        <a href="javascript:;">--%>
+<%--            <div class="panel_icon layui-bg-blue">--%>
+<%--                <i class="layui-anim seraph icon-clock"></i>--%>
+<%--            </div>--%>
+<%--            <div class="panel_word">--%>
+<%--                <span class="loginTime"></span>--%>
+<%--                <cite>上次登录时间</cite>--%>
+<%--            </div>--%>
+<%--        </a>--%>
+<%--    </div>--%>
+<%--</div>--%>
+<%--&lt;%&ndash;通知&ndash;%&gt;--%>
+<%--<blockquote class="layui-elem-quote main_btn">--%>
+<%--    <c:forEach items="${notices}" var="notice">--%>
+<%--        <c:if test="${notice.type==2}">--%>
+<%--            <div class="layui-timeline-title">--%>
+<%--                <h3 class="layui-inline">${notice.title}</h3>--%>
+<%--                <span class="layui-badge-rim"><fmt:formatDate pattern="yyyy-MM-dd"--%>
+<%--                                                              value="${notice.createDate}"/>    </span>--%>
+<%--            </div>--%>
+<%--            <div class="layui-table-tips" style="margin-left: 10px">--%>
+<%--                    ${notice.content}--%>
+<%--            </div>--%>
+<%--            <hr>--%>
+<%--        </c:if>--%>
+<%--    </c:forEach>--%>
+<%--</blockquote>--%>
+<%--<div class="layui-row layui-col-space12">--%>
+<%--    <div class="layui-col-lg12layui-col-md12">--%>
+<%--    </div>--%>
+<%--</div>--%>
+<%--<script type="text/javascript" src="/static/layui/layui.js"></script>--%>
+<%--<script type="text/javascript" src="/static/js/jquery.min.js"></script>--%>
+<%--<script type="text/javascript" src="/static/js/main.js"></script>--%>
+<%--<script src="/static/js/bootstrap.min.js"></script>--%>
+<%--</body>--%>
 </html>
