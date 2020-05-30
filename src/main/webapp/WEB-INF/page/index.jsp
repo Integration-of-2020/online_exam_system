@@ -87,7 +87,7 @@ margin-right: 5px;">系统管理界面</a>
             <ul class="layui-nav top_menu">
                 <li class="layui-nav-item" id="userInfo">
                     <a href="javascript:;">
-                        <img src="/static/images/face.jpg" class="layui-nav-img userAvatar" width="35" height="35">
+                        <img src="/static/images/userface1.jpg" class="layui-nav-img userAvatar" width="35" height="35">
                         <cite class="adminName">${sessionScope.user.nickName}</cite>
                     </a>
                     <dl class="layui-nav-child">
@@ -130,7 +130,7 @@ margin-right: 5px;">系统管理界面</a>
     <!-- 左侧导航 -->
     <div class="layui-side layui-bg-black">
         <div class="user-photo">
-            <a class="img" title="我的头像"><img src="/static/images/face.jpg" class="userAvatar"></a>
+            <a class="img" title="我的头像"><img src="/static/images/userface1.jpg" class="userAvatar"></a>
             <p>你好！<span class="userName">${sessionScope.user.nickName}</span>, 欢迎登录</p>
         </div>
         <!-- 搜索 -->
