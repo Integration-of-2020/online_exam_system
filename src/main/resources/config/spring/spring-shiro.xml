@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
                         http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
     <!-- 自定义Realm -->
-    <bean id="userRealm" class="com.dimple.shiro.UserRealm">
+    <bean id="userRealm" class="com.nenu.shiro.UserRealm">
         <!-- 凭证匹配器(密码加密) -->
         <property name="credentialsMatcher">
             <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">

@@ -1468,7 +1468,7 @@ layer.config({
 
 /**
  * 通用方法封装处理
- * Copyright (c) 2019 dimple
+ * Copyright (c) 2019 nenu
  */
 $(function () {
     // select2复选框事件绑定

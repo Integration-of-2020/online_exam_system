@@ -57,7 +57,7 @@
     <!-- 扫描DAO接口所在包，Spring会自动查找其下的dao
                   接口，然后为接口创建代理对象-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.dimple.dao"/>
+        <property name="basePackage" value="com.nenu.dao"/>
     </bean>
     <!-- (事务管理)transaction manager, use JtaTransactionManager for global tx -->
     <bean id="transactionManager"

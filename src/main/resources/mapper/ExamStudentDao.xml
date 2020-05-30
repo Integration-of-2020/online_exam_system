@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.dimple.dao.ExamStudentDao">
+<mapper namespace="com.nenu.dao.ExamStudentDao">
 
-    <resultMap type="com.dimple.entity.ExamStudent" id="ExamStudentMap">
+    <resultMap type="com.nenu.entity.ExamStudent" id="ExamStudentMap">
         <result property="esId" column="es_id"/>
         <result property="studentId" column="student_id"/>
         <result property="examId" column="exam_id"/>
@@ -34,18 +34,18 @@
             </if>
         </where>
     </select>
-    <select id="selectByExamIdAndStuId" resultType="com.dimple.entity.ExamStudent">
+    <select id="selectByExamIdAndStuId" resultType="com.nenu.entity.ExamStudent">
         select   es_id, student_id, exam_id ,status,total_score from exam_student where exam_id=#{exmaId} and student_id=#{stuId}
     </select>
-    <select id="queryByStudentIdAndExamId" resultType="com.dimple.entity.ExamStudent">
+    <select id="queryByStudentIdAndExamId" resultType="com.nenu.entity.ExamStudent">
         select es_id, student_id, exam_id, status,total_score  from exam_student where student_id=#{stuId} and exam_id=#{examId}
     </select>
-    <select id="selectByExamId" resultType="com.dimple.entity.ExamStudent">
+    <select id="selectByExamId" resultType="com.nenu.entity.ExamStudent">
         select  es_id, student_id, exam_id, status, total_score, reading from exam_student where exam_id=#{examId}
     </select>
 
 
-    <select id="selectScoreList" resultType="com.dimple.entity.Score">
+    <select id="selectScoreList" resultType="com.nenu.entity.Score">
         select s.student_id as stu_id, s.exam_id, s.status, s.total_score, s.reading, u.nick_name as stu_name,
         e.exam_name,f.subname
         from exam_student s,
