@@ -67,7 +67,7 @@ public interface SysUserDao {
      */
     int deleteByIds(Integer[] ids);
 
-    Map register(SysUser user);
+//    Map register(SysUser user);
 
     int checkLoginName(SysUser user);
 }

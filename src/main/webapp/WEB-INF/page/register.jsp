@@ -30,12 +30,12 @@
         </div>
         <div class="layui-form-item">
             <input class="layui-input" name="password" id="password" placeholder="请输入密码" lay-verify="required"
-                   type="text"
+                   type="password"
                    autocomplete="off">
         </div>
         <div class="layui-form-item">
             <input class="layui-input" name="password1" id="password1" placeholder="确认密码" lay-verify="required"
-                   type="text"
+                   type="password"
                    autocomplete="off" onblur="checkPSW()">
         </div>
         <div class="layui-form-item">

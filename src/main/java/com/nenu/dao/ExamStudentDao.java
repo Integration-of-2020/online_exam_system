@@ -77,7 +77,7 @@ public interface ExamStudentDao {
      */
     ExamStudent selectByExamIdAndStuId(@Param("exmaId") Integer examId, @Param("stuId") Integer id);
 
-    ExamStudent queryByStudentIdAndExamId(@Param("stuId") Integer userId, @Param("examId") Integer examId);
+//    ExamStudent queryByStudentIdAndExamId(@Param("stuId") Integer userId, @Param("examId") Integer examId);
 
     /**
      * 获取ExamStudent实体类的信息

@@ -34,12 +34,6 @@
             </form>
         </div>
 
-<%--        <div class="btn-group-sm" id="toolbar" role="group">--%>
-<%--            <a class="btn btn-primary btn-edit disabled" onclick="$.operate.editFull()">--%>
-<%--                <i class="fa fa-edit"></i> 开始考试--%>
-<%--            </a>--%>
-<%--        </div>--%>
-
         <div class="col-sm-12 select-table table-striped">
             <table id="bootstrap-table" data-mobile-responsive="true"></table>
         </div>

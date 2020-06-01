@@ -39,7 +39,7 @@ import java.util.Map;
 
 /**
  * @className: LoginController
- * @description: 登录相关
+ * @description: 登录
  */
 @Controller
 @Slf4j
@@ -52,8 +52,6 @@ public class LoginController {
 
     /**
      * 转到登录的页面
-     *
-     * @return
      */
     @GetMapping("/login")
     public String login() {
@@ -111,7 +109,7 @@ public class LoginController {
         if (StringUtils.isBlank(code) || !trueCode.toLowerCase().equals(code.toLowerCase())) {
             errorMsg = "验证码错误";
         } else {
-            //shiro
+            //shiro验证身份
             Subject subject = SecurityUtils.getSubject();
             UsernamePasswordToken usernamePasswordToken = new UsernamePasswordToken(username, password, Boolean.valueOf(rememberMe));
             try {

@@ -4,7 +4,7 @@ package com.nenu.aspect;
 import com.alibaba.fastjson.JSONObject;
 import com.nenu.annotation.Log;
 import com.nenu.entity.SysLog;
-import com.nenu.exception.GlobalExceptionHandler;
+
 import com.nenu.service.SysLogService;
 import com.nenu.shiro.UserRealm;
 import com.nenu.utils.WebUtils;
@@ -38,8 +38,7 @@ public class LogAspect {
 
     private ThreadLocal<Long> startTime = new ThreadLocal<>();
 
-    @Autowired
-    private GlobalExceptionHandler exceptionHandle;
+
 
     @Autowired
     SysLogService sysLogService;

@@ -28,7 +28,6 @@ import java.io.Serializable;
 
 /**
  * @className: UserRealm
- * @description:
  */
 @Slf4j
 public class UserRealm extends AuthorizingRealm {
@@ -37,7 +36,6 @@ public class UserRealm extends AuthorizingRealm {
 
     /**
      * 授权
-     *
      * @param principalCollection
      * @return
      */
@@ -96,21 +94,6 @@ public class UserRealm extends AuthorizingRealm {
         matcher.setHashIterations(Constants.HASH_INTERATIONS);
         setCredentialsMatcher(matcher);
     }
-
-
-    /**
-     * 清理缓存权限
-     */
-    public void clearCachedAuthorizationInfo() {
-        this.clearCachedAuthorizationInfo(SecurityUtils.getSubject().getPrincipals());
-    }
-
-    public void removeUserAuthorizationInfoCache(String username) {
-        SimplePrincipalCollection pc = new SimplePrincipalCollection();
-        pc.add(username, super.getName());
-        super.clearCachedAuthorizationInfo(pc);
-    }
-
 
     /**
      * 自定义Authentication对象，使得Subject除了携带用户的登录名外还可以携带更多信息.

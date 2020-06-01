@@ -27,16 +27,16 @@ public interface ExamRecordDao {
      * @param userId
      * @return
      */
-    String selectAnswerByExamIdAndQuestionIdAndStuId(@Param("examId") Integer examId, @Param("questionId") Integer id, @Param("stuId") Integer userId);
+//    String selectAnswerByExamIdAndQuestionIdAndStuId(@Param("examId") Integer examId, @Param("questionId") Integer id, @Param("stuId") Integer userId);
 
     /**
      * 根据试卷的id和学生的id查询count记录
      *
      * @param examId
-     * @param stuId
+//     * @param stuId
      * @return
      */
-    int selectRecordCountByExamIdAndStuId(@Param("examId") Integer examId, @Param("stuId") Integer stuId);
+//    int selectRecordCountByExamIdAndStuId(@Param("examId") Integer examId, @Param("stuId") Integer stuId);
 
     ExamRecord selectRecordByExamIdAndQuestionIdAndStuId(@Param("examId") Integer examId, @Param("questionId") Integer id, @Param("stuId") Integer userId);
 

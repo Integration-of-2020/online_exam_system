@@ -15,7 +15,6 @@ import java.util.List;
 
 /**
  * (SysUser)表控制层
- *
  */
 @Controller
 @RequestMapping("system/user")
@@ -37,7 +36,8 @@ public class SysUserController extends BaseController {
     }
 
     //delete：删除；get：查看；put：修改；post：添加
-    @PostMapping("/add")//从客户端将对应数据传给服务端
+    //从客户端将对应数据传给服务端
+    @PostMapping("/add")
     @ResponseBody
     @Log("添加用户")
     public AjaxResult addSave(SysUser user) {

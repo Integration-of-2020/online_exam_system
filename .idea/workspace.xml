@@ -1,0 +1,1471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="online_exam_system:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="075ea309-845f-447d-ac28-68bee05db2e2" name="Default Changelist" comment="--">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/18fdf2e0-b130-4560-b94c-eee4d43d1dd3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/config/spring/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ExamQuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/ExamRecordDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/QuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SubjectDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/config/mybatis/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/config/spring/spring-mvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/config/spring/spring-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/config/spring/spring-shiro.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/ExamQuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/ExamRecordDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/ExamStudentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/NoticeDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/QuestionDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/SysLogDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/classes/mapper/SysUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/ant-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/ant-launcher-1.9.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/asm-5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/aspectjweaver-1.8.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/cglib-3.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/commons-codec-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/druid-1.0.23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/ehcache-core-2.5.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/hutool-all-3.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/jackson-core-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/jackson-databind-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/javax.servlet-api-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/jcl-over-slf4j-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/shiro-core-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/shiro-ehcache-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/shiro-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/shiro-web-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/slf4j-log4j12-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-aspects-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/common/403.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/common/404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/common/500.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/common/include-footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/common/include-header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/exam/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/exam/makeExam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/index/changePassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/exam/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/exam/exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/exam/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/question/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/question/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/review/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/review/review.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/review/reviewExam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/subject/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/subject/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/subject/subject.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/log/log.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/notice/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/notice/notice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/notice/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/user/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/system/user/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/css/newonline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/Simple-Line-Icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/images/face.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/images/fly.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/images/layui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/images/login.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/23bak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/bak.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/join.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/join1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/locking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/logo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/message1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/message2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/shezhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/show_more.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/unlock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/刷新.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/img/头像.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/bodyTab.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/cache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/js/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/json/linkLogo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/json/navs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/layer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/moon/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layer/theme/moon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/blockUI/jquery.blockUI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/bootstrap-table.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/bootstrap-table.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/columns/bootstrap-table-fixed-columns.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/editable/bootstrap-table-editable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/editable/bootstrap-table-editable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/export/bootstrap-table-export.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/export/tableExport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/extensions/toolbar/bootstrap-table-toolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/bootstrap-table/locale/bootstrap-table-zh-CN.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/fullScreen/jquery.fullscreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/iCheck/green-login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/iCheck/green@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/iCheck/icheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/select/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/validate/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/validate/jquery.validate.extend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/validate/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/online_exam_system/static/plugin/validate/messages_zh.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_exam_test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/my_exam_test.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/aspect/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/controller/StudentExamController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/controller/StudentExamController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamRecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamStudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamStudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/dao/SysUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/dao/SysUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/exception/MyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/shiro/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/shiro/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/utils/DigestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/utils/ExceptionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/utils/ExceptionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/utils/VerifyCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/utils/VerifyCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nenu/utils/WebUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nenu/utils/WebUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/common/404.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/common/404.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/exam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/exam.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/makeExam.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/makeExam.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/exam.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/onlineExam/exam/exam.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/online_exam_system/WEB-INF/page/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/makeExam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/json/navs.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/json/navs.json" afterDir="false" />
+    </list>
+    <list id="b2ea1ef4-aa59-409f-8146-c684b9c67d0e" name="system" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="exam: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="exam_question: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="exam_record: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="exam_student: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="notice: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="question: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="subject: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="sys_log: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="my_exam_test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="my_exam_test: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="sys_user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/annotation/Log.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/shiro/UserRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="105" column="31" lean-forward="true" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>doPaper</find>
+      <find>updateUrl</find>
+      <find>doF</find>
+      <find>DruidWebStatFilter</find>
+      <find>DelegatingFilterProxy</find>
+      <find>filter</find>
+      <find>login</find>
+      <find>mycode</find>
+      <find>SysUser</find>
+      <find>insert</find>
+      <find>register</find>
+      <find>RestResponse</find>
+      <find>login_name</find>
+      <find>favicon</find>
+      <find>subject</find>
+      <find>toLogin</find>
+      <find>layer.msg</find>
+      <find>analyse</find>
+      <find>judgeAnswer</find>
+      <find>radioAnswer</find>
+      <find>nickName</find>
+      <find>loginName</find>
+      <find>optionA</find>
+      <find>student</find>
+      <find>findExamListForStu</find>
+      <find>totalScore</find>
+      <find>review</find>
+      <find>finishReview</find>
+      <find>insert into sys_user</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Subject</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/ExceptionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/ServletUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/SqlUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/StringUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/VerifyCodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/web/AjaxResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/web/Constants.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/web/PageDomain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/web/TableDataInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/utils/web/TableSupport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/controller/ScoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/controller/StudentExamController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/login.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/dao/SysUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index/userInfo.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/entity/Exam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/entity/ExamStudent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/entity/Subject.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/dimple/entity/SysUser.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/detail.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/annotation/Log.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/common/404.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/controller/StudentExamController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/controller/SysUserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/controller/TeacherReviewController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamRecordDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/dao/ExamStudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/dao/SysUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/aspect/LogAspect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/exception/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/utils/Convert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/utils/DigestUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/utils/ExceptionUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/utils/VerifyCodeUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/onlineExam/review/review.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/common/include-footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/makeExam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/utils/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nenu/shiro/UserRealm.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/json/navs.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\ideaMaven\MavenRepository" />
+        <option name="userSettingsFile" value="C:\Users\yellow\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="online_exam_system Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="580" />
+    <option name="y" value="40" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
+  </component>
+  <component name="ProjectId" id="1YcaiifQU7j0aBvBzX52EMaFNY3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="online_exam_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online_exam_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online_exam_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online_exam_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online_exam_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online_exam_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online_exam_system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online_exam_system" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586096484836" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22873563" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.dimple.dao" />
+      <recent name="com.dimple.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yellow\Desktop\lixgkfzh-online_exam_system-master\online_exam_system\online_exam_system\src\main\webapp\static\images" />
+      <recent name="C:\Users\yellow\Desktop\lixgkfzh-online_exam_system-master\online_exam_system\online_exam_system\src\main\webapp" />
+      <recent name="C:\Users\yellow\Desktop\lixgkfzh-online_exam_system-master\online_exam_system\online_exam_system\src\main\webapp\static\img" />
+      <recent name="C:\Users\yellow\Desktop\lixgkfzh-online_exam_system-master\online_exam_system\online_exam_system\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\yellow\Desktop\lixgkfzh-online_exam_system-master\online_exam_system\online_exam_system" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\毕业设计\wangjx\online_exam_system\src\main\webapp\WEB-INF\page\onlineExam" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.20" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="online_exam_system:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_online_exam_system_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51497" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="online_exam_system:war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.16071428" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yellow\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="075ea309-845f-447d-ac28-68bee05db2e2" name="Default Changelist" comment="" />
+      <changelist id="b2ea1ef4-aa59-409f-8146-c684b9c67d0e" name="system" comment="" />
+      <created>1583244464613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583244464613</updated>
+      <workItem from="1583244467504" duration="2276000" />
+      <workItem from="1584252302768" duration="6857000" />
+      <workItem from="1584286518285" duration="2347000" />
+      <workItem from="1584355323288" duration="15740000" />
+      <workItem from="1584427789816" duration="312000" />
+      <workItem from="1584435570227" duration="2004000" />
+      <workItem from="1584444446324" duration="7953000" />
+      <workItem from="1584532834153" duration="28000" />
+      <workItem from="1584533269606" duration="94000" />
+      <workItem from="1585895061915" duration="15451000" />
+      <workItem from="1586093852073" duration="2228000" />
+      <workItem from="1589897194160" duration="11837000" />
+      <workItem from="1589909931128" duration="83000" />
+      <workItem from="1589969599541" duration="15137000" />
+      <workItem from="1590545788761" duration="1207000" />
+      <workItem from="1590547206334" duration="10609000" />
+      <workItem from="1590721293838" duration="3218000" />
+      <workItem from="1590728381690" duration="1365000" />
+      <workItem from="1590730526249" duration="992000" />
+      <workItem from="1590804682293" duration="9897000" />
+      <workItem from="1590893747736" duration="13702000" />
+      <workItem from="1590982039932" duration="9790000" />
+    </task>
+    <task id="LOCAL-00001" summary="提交试题管理增加科目属性">
+      <created>1584358071919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584358071919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="提交试题管理增加科目属性">
+      <created>1584369950617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584369950617</updated>
+    </task>
+    <task id="LOCAL-00003" summary="提交增加科目">
+      <created>1584370301907</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584370301907</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完整版">
+      <created>1584451452375</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584451452375</updated>
+    </task>
+    <task id="LOCAL-00005" summary="增加学生注册功能，优化提交判空控制，优化考试界面分数显示">
+      <created>1586096548132</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586096548132</updated>
+    </task>
+    <task id="LOCAL-00006" summary="数据库文件">
+      <created>1589974165204</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589974165204</updated>
+    </task>
+    <task id="LOCAL-00007" summary="优化管理员公告，日志界面">
+      <created>1589975061153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589975061153</updated>
+    </task>
+    <task id="LOCAL-00008" summary="删除未实现的功能">
+      <created>1589981838847</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589981838847</updated>
+    </task>
+    <task id="LOCAL-00009" summary="--">
+      <created>1589984112769</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589984112769</updated>
+    </task>
+    <task id="LOCAL-00010" summary="整合登录注册样式">
+      <created>1590597585054</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590597585054</updated>
+    </task>
+    <task id="LOCAL-00011" summary="修改考试页面">
+      <created>1590729329940</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1590729329940</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update index&amp;main">
+      <created>1590811181154</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1590811181154</updated>
+    </task>
+    <task id="LOCAL-00013" summary="--">
+      <created>1590819140970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1590819140970</updated>
+    </task>
+    <task id="LOCAL-00014" summary="--">
+      <created>1590829922509</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590829922509</updated>
+    </task>
+    <task id="LOCAL-00015" summary="--">
+      <created>1590830031906</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590830031906</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="123994000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49802372" visible="true" weight="0.2918351" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.5019763" side_tool="true" weight="0.23443815" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.70871985" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49717057" visible="true" weight="0.055658627" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49932975" weight="0.3711048" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="8" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50282943" side_tool="true" weight="0.103896104" />
+      <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.4987874" weight="0.32962963" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" sideWeight="0.49932975" weight="0.3729128" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.50067025" side_tool="true" weight="0.36827195" />
+      <window_info anchor="bottom" id="Messages" order="18" weight="0.7235622" />
+      <window_info anchor="bottom" id="Database Console" order="19" weight="0.32777777" />
+      <window_info anchor="right" id="Maven" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.4130962" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="10" side_tool="true" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交试题管理增加科目属性" />
+    <MESSAGE value="提交增加科目" />
+    <MESSAGE value="完整版" />
+    <MESSAGE value="增加学生注册功能，优化提交判空控制，优化考试界面分数显示" />
+    <MESSAGE value="数据库文件" />
+    <MESSAGE value="优化管理员公告，日志界面" />
+    <MESSAGE value="删除未实现的功能" />
+    <MESSAGE value="整合登录注册样式" />
+    <MESSAGE value="修改考试页面" />
+    <MESSAGE value="update index&amp;main" />
+    <MESSAGE value="--" />
+    <option name="LAST_COMMIT_MESSAGE" value="--" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="183" key="#Project_Structure" timestamp="1583245270443">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="183" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1583245270443" />
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584252461254">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584252461254" />
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser" timestamp="1584257367532">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="209" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1584257367532" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1583244490223">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583244490223" />
+    <state width="1550" height="305" key="GridCell.Tab.0.bottom" timestamp="1584257813420">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584257813420" />
+    <state width="1550" height="305" key="GridCell.Tab.0.center" timestamp="1584257813420">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584257813420" />
+    <state width="1550" height="305" key="GridCell.Tab.0.left" timestamp="1584257813419">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584257813419" />
+    <state width="1550" height="305" key="GridCell.Tab.0.right" timestamp="1584257813420">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584257813420" />
+    <state width="1550" height="305" key="GridCell.Tab.1.bottom" timestamp="1584258145934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.1.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584258145934" />
+    <state width="1550" height="305" key="GridCell.Tab.1.center" timestamp="1584258145934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.1.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584258145934" />
+    <state width="1550" height="305" key="GridCell.Tab.1.left" timestamp="1584258145934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.1.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584258145934" />
+    <state width="1550" height="305" key="GridCell.Tab.1.right" timestamp="1584258145934">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.1.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584258145934" />
+    <state width="1550" height="305" key="GridCell.Tab.2.bottom" timestamp="1584258143533">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.2.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584258143533" />
+    <state width="1550" height="305" key="GridCell.Tab.2.center" timestamp="1584258143533">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.2.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584258143533" />
+    <state width="1550" height="305" key="GridCell.Tab.2.left" timestamp="1584258143533">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.2.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584258143533" />
+    <state width="1550" height="305" key="GridCell.Tab.2.right" timestamp="1584258143533">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1550" height="305" key="GridCell.Tab.2.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584258143533" />
+    <state width="1293" height="305" key="GridCell.Tab.3.bottom" timestamp="1584253313572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1293" height="305" key="GridCell.Tab.3.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584253313572" />
+    <state width="1293" height="305" key="GridCell.Tab.3.center" timestamp="1584253313572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1293" height="305" key="GridCell.Tab.3.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584253313572" />
+    <state width="1293" height="305" key="GridCell.Tab.3.left" timestamp="1584253313572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1293" height="305" key="GridCell.Tab.3.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584253313572" />
+    <state width="1293" height="305" key="GridCell.Tab.3.right" timestamp="1584253313572">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1293" height="305" key="GridCell.Tab.3.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584253313572" />
+    <state x="461" y="167" key="SettingsEditor" timestamp="1583244606298">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="167" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583244606298" />
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584254478603">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584254478603" />
+    <state x="636" y="258" width="799" height="534" key="find.popup" timestamp="1584258787504">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="258" width="799" height="534" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584258787504" />
+    <state x="601" y="251" width="700" height="530" key="recent.locations.popup" timestamp="1584253739864">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="601" y="251" width="700" height="530" key="recent.locations.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584253739864" />
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1584258764747">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="623" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584258764747" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/main/webapp/static/js/register.js</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/controller/ExamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/DigestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#3123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/BaseEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/Convert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/DateUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/Digests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/Encodes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_exam_test.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="263" column="60" selection-start-line="263" selection-start-column="60" selection-end-line="263" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/ExceptionUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/RestResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/ServletUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/SqlUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-541">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/utils/VerifyCodeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-456" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/exam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="86" column="52" lean-forward="true" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="7" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="134" column="50" selection-start-line="134" selection-start-column="50" selection-end-line="134" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/exam/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4389" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/layui.mobile.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/code.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/icon-ext.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/layer.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-0.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/css/modules/layer/default/loading-2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/0.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/65.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/67.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/69.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/70.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layui/images/face/71.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/layer.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/theme/default/icon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/theme/default/icon-ext.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/theme/default/loading-0.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/theme/default/loading-1.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/json/userface.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/json/linkLogo.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/layer/theme/default/loading-2.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/json/navs.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/aspect/LogAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/annotation/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nenu/shiro/UserRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="105" column="31" lean-forward="true" selection-start-line="105" selection-start-column="31" selection-end-line="105" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>online_exam_system:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22873563" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22873563" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>online_exam_system</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22873563" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.22873563" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

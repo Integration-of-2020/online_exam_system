@@ -222,18 +222,6 @@
         video.play();
     }
 
-    <%--function error(error) {--%>
-    <%--    console.log(`访问用户媒体设备失败${error.name}, ${error.message}`);--%>
-    <%--}--%>
-
-    /*  if (navigator.mediaDevices.getUserMedia || navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia) {
-          //调用用户媒体设备, 访问摄像头
-          getUserMedia({video: {width: 480, height: 320}}, success, error);
-      } else {
-          alert('不支持访问用户媒体');
-      }*/
-
-
     $(function () {
         $.modal.alertWarningWithTitle("系统提示", "您需要在指定时间填写试卷，然后点击提交按钮！<br> 断电或异常情况导致浏览器关闭，请重新登录系统即可，已经填写的答案不会丢失！")
     });

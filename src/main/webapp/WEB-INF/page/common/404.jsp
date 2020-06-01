@@ -19,7 +19,7 @@
 <div class="noFind">
     <div class="page404">
 <%--        <i class="layui-icon">&#xe61c;</i>--%>
-        <p>我勒个去，页面被外星人挟持了!</p>
+        <p>页面被外星人挟持了!</p>
     </div>
 </div>
 <%@include file="../common/include-footer.jsp" %>

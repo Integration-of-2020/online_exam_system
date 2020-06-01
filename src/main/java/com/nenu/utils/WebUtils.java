@@ -258,28 +258,9 @@ public class WebUtils {
         return finalMap;
     }
 
-    public static void main(String args[]) throws Exception {
-        //long t1 = System.currentTimeMillis();
-        //Map<String,String> map = getAddressByIP("0.0.0.0");
-        //LOGGER.info("地区："+map.get("country"));
-        //LOGGER.info("省："+map.get("province"));
-        //LOGGER.info("市："+map.get("city"));
-        //LOGGER.info("互联网服务提供商："+map.get("isp"));
-        //long t2 = System.currentTimeMillis();
-        //System.out.println("执行时间为"+(t2-t1));
-
-        //StringBuilder sb = new StringBuilder("https://apis.map.qq.com/ws/location/v1/ip?ip=117.82.187.111&key=N7XBZ-NX764-OFOUH-D5LJY-KZ3QK-6WFNX");
-        //String result= HttpUtil.get(sb.toString(), "UTF-8");
-        //Map<String,String> map = Maps.newHashMap();
-        //Map resultMap = JSON.parseObject(result,Map.class);
-        //Map m = (Map) resultMap.get("result");
-        //Map r = (Map) m.get("ad_info");
-        //Integer code = (Integer) resultMap.get("code");
-        //if(code == 0){
-        //	Map<String,String> detail = (Map<String,String>)resultMap.get("data");
-        //	String country = detail.get("country");
-        //}
-        Map maps = getAddressByIP("117.82.187.111");
-        System.out.println(JSONObject.toJSONString(maps));
-    }
+//    public static void main(String args[]) throws Exception {
+//        //Map maps = getAddressByIP("117.82.187.111");
+//        Map maps = getAddressByIP("219.217.42.146");
+//        System.out.println(JSONObject.toJSONString(maps));
+//    }
 }

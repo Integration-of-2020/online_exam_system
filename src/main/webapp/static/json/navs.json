@@ -10,7 +10,7 @@
   "memberCenter": [
     {
       "title": "试卷管理",
-      "icon": "&#xe612;",
+      "icon": "icon-vip;",
       "href": "/onlineExam/exam",
       "spread": false
     },

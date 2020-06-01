@@ -4,7 +4,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>在线考试系统-后台管理</title>
+    <title>在线考试系统</title>
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="Access-Control-Allow-Origin" content="*">
@@ -12,7 +12,6 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="format-detection" content="telephone=no">
-    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="/static/layui/css/layui.css" media="all"/>
     <link rel="stylesheet" href="/static/css/index.css" media="all"/>
 </head>
@@ -24,7 +23,7 @@
     <div class="layui-header header">
         <div class="layui-main mag0">
             <a href="#" class="logo"><img src="/static/img/logo.png" style="width: 17px;
-margin-right: 5px;">系统管理界面</a>
+margin-right: 5px;">在线考试系统</a>
             <!-- 显示/隐藏菜单 -->
             <a href="javascript:;" class="seraph hideMenu icon-caidan"></a>
             <!-- 顶级菜单 -->
@@ -78,7 +77,7 @@ margin-right: 5px;">系统管理界面</a>
                     <li class="layui-nav-item" data-menu="systemeSttings" pc>
                         <a href="javascript:;">
                             <i class="layui-icon" data-icon="&#xe620;">&#xe620;</i>
-                            <cite>用户设置</cite>
+                            <cite>系统管理</cite>
                         </a>
                     </li>
                 </shiro:hasRole>
@@ -133,15 +132,6 @@ margin-right: 5px;">系统管理界面</a>
             <a class="img" title="我的头像"><img src="/static/images/userface1.jpg" class="userAvatar"></a>
             <p>你好！<span class="userName">${sessionScope.user.nickName}</span>, 欢迎登录</p>
         </div>
-        <!-- 搜索 -->
-<%--        <div class="layui-form component">--%>
-<%--            <select name="search" id="search" lay-search lay-filter="searchPage">--%>
-<%--                <option value="">搜索页面或功能</option>--%>
-<%--                <option value="1">layer</option>--%>
-<%--                <option value="2">form</option>--%>
-<%--            </select>--%>
-<%--            <i class="layui-icon">&#xe615;</i>--%>
-<%--        </div>--%>
         <div class="navBar layui-side-scroll" id="navBar">
             <ul class="layui-nav layui-nav-tree">
                 <li class="layui-nav-item layui-this">
@@ -193,17 +183,7 @@ margin-right: 5px;">系统管理界面</a>
             </div>
         </div>
     </div>
-    <!-- 底部 -->
-    <div class="layui-footer footer">
-        <p>
-            <span>在线考试系统</span>
-        </p>
-    </div>
 </div>
-
-<!-- 移动导航 -->
-<%--<div class="site-tree-mobile"><i class="layui-icon">&#xe602;</i></div>--%>
-<%--<div class="site-mobile-shade"></div>--%>
 
 <script src="/static/js/jquery.min.js"></script>
 <script type="text/javascript" src="/static/layui/layui.js"></script>
