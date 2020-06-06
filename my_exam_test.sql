@@ -1076,7 +1076,7 @@ CREATE TABLE `sys_user` (
 -- ----------------------------
 -- Records of sys_user
 -- ----------------------------
-INSERT INTO `sys_user` VALUES ('1', 'admin', '超级管理员', '', '810339f5426fe2dcaf92c5cac718acc6471a034b', '3fb62b5aeede1bbf', '1234567', 'b@qq.com', '0', '2017-11-27 22:19:39', '1', '2020-05-28 01:02:08', '1', '', '0', '1');
+INSERT INTO `sys_user` VALUES ('1', 'admin', '超级管理员', '', '810339f5426fe2dcaf92c5cac718acc6471a034b', '3fb62b5aeede1bbf', '1234567', 'b@qq.com', '0', '2020-05-01 22:19:39', '1', '2020-05-28 01:02:08', '1', '', '0', '1');
 INSERT INTO `sys_user` VALUES ('25', 'teacher1', '教师1', null, '7fdec6502fdfca5612c2fb4be2c912e540513146', '61893829523e58b7', '12345678901', 'qweqwe@qq.com', null, '2019-05-09 00:02:51', '1', '2020-06-01 13:31:56', null, null, null, '2');
 INSERT INTO `sys_user` VALUES ('26', 'teacher2', '教师2', null, '5a7a8ada80488f7bea72e02170c4326f6c39ea23', 'b82517efc4f7241c', '12345678901', 'qweqwe@qq.com', null, '2019-05-09 00:03:18', '1', '2020-06-01 13:32:03', null, null, null, '2');
 INSERT INTO `sys_user` VALUES ('33', 'student1', '学生1', null, 'b29d46b0e7f17e5cd33d53bfd0ddc4296a27f4ed', '3bc3a27fa7e92371', '12345678901', 'qweqweqw@qq.com', null, '2020-05-31 17:51:11', null, '2020-06-01 13:31:46', null, null, null, '3');
