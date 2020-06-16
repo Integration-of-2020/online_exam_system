@@ -4,8 +4,6 @@
 <p>学生老师账号：可在管理员的用户管理获取</p>
 <p>学生老师密码统一为：123456</p>
 ## 项目部分图例</br>
-用户管理：    
-<img src="https://github.com/Integration-of-2020/online_exam_system/blob/master/screenshots/1用户管理.png"/>
 公告管理：  
 <img src="https://github.com/Integration-of-2020/online_exam_system/blob/master/screenshots/2公告管理.png"/>
 科目管理：  
